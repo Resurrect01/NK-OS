@@ -20,9 +20,9 @@
 
 首先调用了clock_set_next_event()函数实现中断，接着使操作系统每遇到100次时钟中断后，向屏幕上打印一行文字”100 ticks”，调用print_ticks子程序，在打印完10行后，调用sbi.h中的sbi_shutdown()函数关机。
 
-<img src="C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230922125729525.png" alt="image-20230922125729525" style="zoom: 67%;" /><img src="C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230922125518120.png" alt="image-20230922125518120" style="zoom:50%;" />
+<img src="https://github.com/Resurrect01/NK-OS/blob/main/report/picture/1_1.png" alt="image-20230922125729525" style="zoom: 67%;" /><img src="https://github.com/Resurrect01/NK-OS/blob/main/report/picture/1_2.png" alt="image-20230922125518120" style="zoom:50%;" />
 
-![image-20230922125818929](C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230922125818929.png)
+![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/1_3.png)
 
 ## (3) 扩展练习 Challenge1：描述与理解中断流程
 
@@ -72,7 +72,7 @@ STORE他们是为了给trap传参，用于处理中断异常。
 ### 2.触发"Illegal instruction"和"ebreak"异常的代码
 此部分代码位于kern/init/init.c中，只有两行代码，使用到了"asm volatile （"instruction"）"的语法形式。这是一个C/C++中的内联汇编表达式，会执行括号中的汇编指令，只需要写入能够触发上述两个异常的汇编指令即可。
 
-![image-20230922125844904](C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230922125844904.png)
+![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/1_4.png)
 
 ## （6）本实验中重要的知识点
 
