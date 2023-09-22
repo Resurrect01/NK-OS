@@ -37,9 +37,9 @@
 
 ​		我们继续跟随程序运行,发现程序通过0x8000000c处的代码跳转至0x800006a0,之后程序会通过ret返回至0x80000010处。
 
-<img src="![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_2.png)" style="zoom: 80%;" />
+![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_2.png)
 
-<img src="![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_4.png)" style="zoom:80%;" />
+![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_4.png)
 
 总结：Risc-V加电过程中，完成了哪些事情？
 
