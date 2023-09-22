@@ -12,7 +12,7 @@
 
 ​				硬件加电之后的几条代码是：
 
-![image-20230921084123391](C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230921084123391.png)
+![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_1.png)
 
 ​				
 
@@ -33,7 +33,7 @@
 
 - 跟随程序运行，跳转至0x80000000处
 
-  ![image-20230921085040636](C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230921085040636.png)
+![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_2.png)
 
 ​		我们继续跟随程序运行,发现程序通过0x8000000c处的代码跳转至0x800006a0,之后程序会通过ret返回至0x80000010处。
 
