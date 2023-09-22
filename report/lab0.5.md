@@ -33,13 +33,13 @@
 
 - 跟随程序运行，跳转至0x80000000处
 
-![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_2.png)
+![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_3.png)
 
 ​		我们继续跟随程序运行,发现程序通过0x8000000c处的代码跳转至0x800006a0,之后程序会通过ret返回至0x80000010处。
 
-<img src="C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230921085430085.png" alt="image-20230921085430085" style="zoom: 80%;" />
+<img src="![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_2.png)" style="zoom: 80%;" />
 
-<img src="C:\Users\复活少年\AppData\Roaming\Typora\typora-user-images\image-20230921085501879.png" alt="image-20230921085501879" style="zoom:80%;" />
+<img src="![image](https://github.com/Resurrect01/NK-OS/blob/main/report/picture/0.5_4.png)" style="zoom:80%;" />
 
 总结：Risc-V加电过程中，完成了哪些事情？
 
