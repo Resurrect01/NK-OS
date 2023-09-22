@@ -111,7 +111,7 @@ void interrupt_handler(struct trapframe *tf) {
             // (1)设置下次时钟中断- 
             clock_set_next_event();
 
-            if (++ticks % TICK_NUM == 1000) {
+            if (++ticks % TICK_NUM == 100) {
                 print_ticks();
             }
             if (++number == 10)
